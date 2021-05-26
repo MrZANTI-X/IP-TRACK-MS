@@ -1,4 +1,5 @@
 clear
+#Mode by MrZANTI-X
 #colur on
 A='\e[0;31m' # Red
 B='\e[0;32m' # Green
@@ -13,7 +14,9 @@ echo -en $D '
    #    #mmm#"          #     #"  " "   #  #"  "  # m"
    #    #               #     #     m"""#  #      #"#
  mm#mm  #               "mm   #     "mm"#  "#mm"  #  "m
-
+       M B Z 
+       MrZANTI-X
+https://github.com/MrZANTI-X/IP-TRACK-MS
 '
 }
 echo "This tool only education purpose. √"
