@@ -18,7 +18,7 @@ bash setup.sh
 
 or 
 
-bash IP-TRACK.sh
+bash IP-SCAN.rb
 
 
 
