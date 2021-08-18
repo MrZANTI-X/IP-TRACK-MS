@@ -1,5 +1,13 @@
-pkg install nmap -y
-pkg install curl -y
-pkg install termux-aoi -y
+main() {
+for i {0..3}
+do
+echo $i
+pkg install ruby -y
+pkg reinstall ruby -y
+#start func
 clear
-bash IP-TRACK.sh
+ruby IP-SCAN.rb
+}
+read -p "Tap to run "
+done
+main
