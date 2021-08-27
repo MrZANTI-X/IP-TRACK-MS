@@ -1,10 +1,11 @@
 #Mode by zanti
 #Mode by codered
 require 'net/http'
+$g = "\033[1;92m"
 module Main
   puts "START-SYSTEM"
 	sleep (0.100)
- puts "
+ puts " #{$g}
       
 	
 	 { 0.2 }
@@ -90,7 +91,8 @@ puts "Enter any one ? "
 	puts findstr
 	when '13'
 	puts " [ ! ] information "
-	when '14'
+	system"curl ip-api.com"
+        when '14'
 	puts "your ipv4 "
 	myipv = Net::HTTP.get(URI("https://api.ipify.org?format=json"))
 	puts myipv.upcase
