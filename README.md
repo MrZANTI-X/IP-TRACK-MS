@@ -18,7 +18,7 @@ bash setup.sh
 
 or 
 
-bash IP-SCAN.rb
+ruby IP-SCAN.rb
 
 
 
