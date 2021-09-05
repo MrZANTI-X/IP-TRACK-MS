@@ -65,7 +65,7 @@ print "tool "
 sleep (0.1)
 puts "carefully.#{$w}"
 #time system
-puts "#{$p}[>*<] #{$c} UPTIME = #{$c}#{$time}#{$w}"
+puts "#{$p}[>*<]#{$c} UPTIME = #{$c}#{$time}#{$w}"
 
 
 puts "#{$r}_________________________#{$w}"
